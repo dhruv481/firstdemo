@@ -41,5 +41,13 @@ Class<br>
         //Sub-string (first index is taken into substring and last index is not taken)
         System.out.println(name.substring(6,11));
 
-<br>
+
+Output:
+
+        age = 22
+        Dhruv Gupta
+        u
+        11
+        old = Aman     and new = Ambn
+        Gupta
 
