@@ -1,5 +1,5 @@
 # firstdemo
- first java programming 
+ JAVA Programming 
  <br>
  <h3>Primitive Data types and sizes:</h3>
  byte - 1 [-128 to 127]<br>
