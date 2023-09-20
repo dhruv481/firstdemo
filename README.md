@@ -83,3 +83,23 @@ Output:
         92
         98
 
+<h3>Casting in JAVA</h3>
+
+        //implicit casting(Storing small datatype in big)
+        double price = 100.00;
+        double finalPrice = price + 18;
+
+        System.out.println(finalPrice);
+
+        //explicit casting (storing big data type in small
+
+        int p = 100;
+        int fp = p + (int)18.78;
+        System.out.println(fp);
+
+Output:
+
+        118.0
+        118
+
+
