@@ -51,4 +51,38 @@ Output:
         old = Aman     and new = Ambn
         Gupta
 
+<<<<<<< HEAD
 <h3>Arrays in JAVA</h3>
+
+        //Aray
+        int[] marks = new int[4];
+        marks[0] = 94;
+        marks[1] = 95;
+        marks[2] = 97;
+        marks[3] = 92;
+
+        System.out.println(marks[1]);
+
+        //length
+        System.out.println(marks.length);
+
+        //sort
+        System.out.println(marks[0]);
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+
+        //2-D array
+        int[][] finalMarks = {{91,93,96,94}, {98,94,92,97}};
+        System.out.println(finalMarks[1][0]);
+
+Output:
+
+        95
+        4
+        94
+        92
+        98
+
+
+=======
+>>>>>>> parent of 73d38b5 (Update README.md)
