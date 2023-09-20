@@ -51,7 +51,7 @@ Output:
         old = Aman     and new = Ambn
         Gupta
 
-<<<<<<< HEAD
+
 <h3>Arrays in JAVA</h3>
 
         //Aray
@@ -83,6 +83,3 @@ Output:
         92
         98
 
-
-=======
->>>>>>> parent of 73d38b5 (Update README.md)
