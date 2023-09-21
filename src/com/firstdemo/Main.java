@@ -5,16 +5,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int num = 0;
-        do {
-            System.out.println("Enter a number: ");
-            num = sc.nextInt();
-            System.out.print("Your number is: ");
-            System.out.println(num);
-        }while(num>=0);
+        //try - catch in exception handling
 
-        System.out.println("THE END!!!");
+        int[] marks = {94, 98, 91, 96};
+        try {
+            System.out.println(marks[6]);
+        }catch (Exception exception){
+            //sample try - catch
+            System.out.println("Exception is being handled...");
+        }
+        System.out.println("Exception handled Successfully...");
+
+//        Scanner sc = new Scanner(System.in);
+//        int num = 0;
+//        do {
+//            System.out.println("Enter a number: ");
+//            num = sc.nextInt();
+//            System.out.print("Your number is: ");
+//            System.out.println(num);
+//        }while(num>=0);
+//
+//        System.out.println("THE END!!!");
 
         //For Loop
         //print 1-100
