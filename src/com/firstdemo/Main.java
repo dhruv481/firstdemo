@@ -5,31 +5,42 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        int num = 0;
+        do {
+            System.out.println("Enter a number: ");
+            num = sc.nextInt();
+            System.out.print("Your number is: ");
+            System.out.println(num);
+        }while(num>=0);
+
+        System.out.println("THE END!!!");
+
         //For Loop
         //print 1-100
-        for (int i = 1;i<=100; i++){
-            System.out.println(i);
-        }
+//        for (int i = 1;i<=100; i++){
+//            System.out.println(i);
+//        }
 
         //print 100-1
-        for (int j = 100; j>=1; j--){
-            System.out.println(j);
-        }
+//        for (int j = 100; j>=1; j--){
+//            System.out.println(j);
+//        }
 
         //While Loop
         //final int k = 100;    with final keyword value becomes constant and cannot be changed further.
-        int k = 100;
-        while (k>=1){
-            System.out.println(k);
-            k=k-1;
-        }
+//        int k = 100;
+//        while (k>=1){
+//            System.out.println(k);
+//            k=k-1;
+//        }
 
         //Do While
-        int l = 100;
-        do {
-            System.out.println(l);
-            l = l - 1;
-        }while (l>=1);
+//        int l = 100;
+//        do {
+//            System.out.println(l);
+//            l = l - 1;
+//        }while (l>=1);
 
         //input in java
         //Scanner sc = new Scanner(System.in);
